@@ -76,6 +76,9 @@ p{
     margin: 0 2rem 0 2rem;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
 }
+.card > img{
+    height: 8rem;
+}
 .logocontain{
     display: grid;
     justify-items: center;
