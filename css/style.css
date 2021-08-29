@@ -1,14 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Akronim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=K2D&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
+    font-family: 'K2D', sans-serif;
 }
 h1, h2, h3, p{
     text-align: center;
 }
 p{
     margin: 0px 20px 0px 20px;
+}
+.name{
+    font-family: 'Delius Swash Caps', cursive;
 }
 .sticky {
 	background-color: #ffffff;
@@ -65,9 +73,11 @@ p{
     padding: 0.5rem;
     border-radius: 8px;
     background: #fff;
+    max-width: 15rem;
+    min-width: 14rem;
     min-height: 200px;
     margin: 0 2rem 0 2rem;
-    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
 }
 .ccontainer{
     position: relative;
@@ -162,4 +172,9 @@ p{
 }
 footer{
     background: #000;
+    height: 24vh;
+}
+footer > p {
+    font-family: 'Akronim', cursive;
+    font-size: xx-large;
 }
