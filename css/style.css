@@ -10,6 +10,31 @@ h1, h2, h3, p{
 p{
     margin: 0px 20px 0px 20px;
 }
+.sticky {
+	background-color: #ffffff;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+.list-inline {
+	list-style: none;
+	margin-left: -0.5em;
+	margin-right: -0.5em;
+	padding: 0;
+}
+.list-inline > li {
+	display: inline-block;
+	margin-left: 0.5em;
+	margin-right: 0.5em;
+}
+.list-inline > li > a{
+    text-decoration: none;
+    color: #000;
+}
+.list-inline > li:before {
+	content: "\200B"; /* 1 */
+	position: absolute; /* 2 */
+}
 .hero-image{
     position: relative;
 }
@@ -41,6 +66,7 @@ p{
     border-radius: 8px;
     background: #fff;
     min-height: 200px;
+    margin: 0 2rem 0 2rem;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.8);
 }
 .ccontainer{
