@@ -43,21 +43,6 @@ p{
 	content: "\200B"; /* 1 */
 	position: absolute; /* 2 */
 }
-.hero-image{
-    position: relative;
-}
-#visual{
-    width: 200%;
-    transform: translate(-20%, 0%);
-}
-.snap{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 .holder{
     display: flex;
     justify-content: center;
@@ -78,6 +63,12 @@ p{
     min-height: 200px;
     margin: 0 2rem 0 2rem;
     box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4);
+}
+.logocontain{
+    display: grid;
+    grid-gap: 2px;
+    grid-template-columns: repeat(2, 1fr);
+    transform: translate(12%, 0);
 }
 .ccontainer{
     position: relative;
@@ -177,4 +168,6 @@ footer{
 footer > p {
     font-family: 'Akronim', cursive;
     font-size: xx-large;
+    margin-top: auto;
+    color: white;
 }
