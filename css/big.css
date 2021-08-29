@@ -1,7 +1,41 @@
 @media only screen and (min-width: 600px)  
 {
-    .hero-image{
+    .hero-image, .headabout{
         float: right;
+        border: #000 solid 3px;
+    }
+    .hero{
+        height: 30rem;
+    }
+    .hero-image{
+        position: relative;
+        margin-right: 4rem;
+        bottom: 20rem;
+    }
+    .about{
+        height: 24rem;
+    }
+    .holder{
+        border: #000 solid 3px;
+        overflow: visible;
+    }
+    .dev{
+        transform: translate(20%, 0);
+    }
+    .headabout{
+        position: relative;
+        font-size: 1.8rem;
+        left: 24rem;
+    }
+    .intro{
+        width: 60%;
+    }
+    .intro > h1, .intro > p{
+        text-align: left;
+        font-size: xx-large;
+    }
+    .intro > h1 {
+        font-size: 4rem;
     }
     .deck{
         display: grid;
@@ -16,5 +50,28 @@
     .contact{
         transform: translate(30%, 40%);
     }
-
+    .projects{
+        height: 24rem;
+    }
+    .projects > h2{
+        float: left;
+        font-size: 2rem;
+        border: solid 3px #000;
+        width: 20%;
+    }
+    .companies{
+        height: 24rem;
+    }
+    .ccontainer{
+        transform: scale(2, 2);
+        border: #000 solid 3px;
+    }
+    .companiestxt{
+        float: right;
+        width: 50%;
+        font-size: 3rem;
+    }
+    #contact{
+        overflow: hidden;
+    }
 }
