@@ -14,7 +14,7 @@ This website was built purely by HTML and CSS code and ofcourse the images conta
 
 ## Bugs
 
-None that i can't step on.
+None that i can't step on. HeHe. I don't know how big are you screens but i might it might not break depending on your screens
 
 ## Support and contact details
 
