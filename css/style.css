@@ -18,6 +18,14 @@ p{
 .orange{
     color: orange;
 }
+.logo{
+    display: flex;
+    justify-content: right;
+}
+.logo > h1{
+    font-family: 'Akronim', cursive;
+    font-size: 5rem;
+}
 .name{
     font-family: 'Delius Swash Caps', cursive;
 }
