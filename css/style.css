@@ -187,3 +187,18 @@ footer > p {
     margin-top: auto;
     color: white;
 }
+button{
+    border: none;
+    color: #ffffff;
+    background-color: orange;
+    border-radius: 90px;
+    padding: 8px;
+    width: 4rem;
+    font-size: larger;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo > h1{
+    font-size: 3.2rem;
+    
+}
